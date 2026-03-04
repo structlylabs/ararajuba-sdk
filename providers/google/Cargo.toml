@@ -4,6 +4,7 @@ version = "0.2.0"
 edition = "2024"
 description = "Google Generative AI (Gemini) provider for Ararajuba AI SDK"
 license = "Apache-2.0"
+repository = "https://github.com/structlylabs/ararajuba-sdk"
 
 [dependencies]
 ararajuba-provider = { version = "0.2.0", path = "../../core/provider" }
