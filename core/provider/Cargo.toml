@@ -1,0 +1,18 @@
+[package]
+name = "ararajuba-provider"
+version = "0.2.0"
+edition = "2024"
+description = "Spec/trait layer for AI provider implementations"
+license = "Apache-2.0"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+futures = "0.3"
+thiserror = "1"
+chrono = { version = "0.4", features = ["serde"] }
+tokio-util = "0.7"
+async-trait = "0.1"
+pin-project-lite = "0.2"
+tokio = { version = "1", features = ["sync", "rt"] }
+tokio-stream = "0.1"

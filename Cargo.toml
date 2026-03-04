@@ -1,0 +1,15 @@
+[workspace]
+resolver = "3"
+members = [
+    "ararajuba",
+    "core/provider",
+    "core/provider-utils",
+    "core/ai",
+    "core/mcp",
+    "tools/coding",
+    "providers/openai-compatible",
+    "providers/openai",
+    "providers/anthropic",
+    "providers/google",
+    "providers/deepseek",
+]

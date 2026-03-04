@@ -1,0 +1,17 @@
+[package]
+name = "ararajuba-tools-coding"
+version = "0.1.0"
+edition = "2024"
+description = "Standard coding-agent tool set (file system, git, shell, analysis)"
+license = "Apache-2.0"
+
+[dependencies]
+ararajuba-core = { version = "0.1.0", path = "../../core/ai" }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1", features = ["full"] }
+futures = "0.3"
+glob = "0.3"
+ignore = "0.4"
+git2 = "0.19"
+regex = "1"
