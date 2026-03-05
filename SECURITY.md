@@ -6,7 +6,7 @@
 
 If you discover a security vulnerability in Ararajuba, please report it responsibly by emailing:
 
-**security@structly.ai**
+**bradrugo@hotmail.com**
 
 Please include:
 
