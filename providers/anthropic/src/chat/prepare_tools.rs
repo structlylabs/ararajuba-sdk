@@ -34,7 +34,8 @@ pub fn prepare_anthropic_tools(
     }
 
     let tools_value = tools.map(|t| {
-        t.iter()
+        let mut list = t
+            .iter()
             .filter_map(|tool| match tool {
                 Tool::Function(ft) => {
                     let mut obj = json!({
@@ -57,7 +58,15 @@ pub fn prepare_anthropic_tools(
                     None
                 }
             })
-            .collect::<Vec<_>>()
+            .collect::<Vec<_>>();
+
+        // Mark the last tool with cache_control so Anthropic caches the entire
+        // tools block across turns (prompt caching).
+        if let Some(last) = list.last_mut() {
+            last["cache_control"] = json!({ "type": "ephemeral" });
+        }
+
+        list
     });
 
     let tc_value = tool_choice.map(|tc| match tc {
