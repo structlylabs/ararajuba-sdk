@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2024"
 description = "High-level AI SDK functions for Ararajuba"
 license = "Apache-2.0"
-repository = "https://github.com/structlylabs/ararajuba-sdk"
+repository = "https://github.com/atlantichq/ararajuba-sdk"
 
 [dependencies]
 ararajuba-provider = { version = "0.2.0", path = "../provider" }

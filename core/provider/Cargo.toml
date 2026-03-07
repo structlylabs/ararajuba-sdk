@@ -4,7 +4,7 @@ version = "0.2.0"
 edition = "2024"
 description = "Spec/trait layer for AI provider implementations"
 license = "Apache-2.0"
-repository = "https://github.com/structlylabs/ararajuba-sdk"
+repository = "https://github.com/atlantichq/ararajuba-sdk"
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }

@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2024"
 description = "Standard coding-agent tool set (file system, git, shell, analysis)"
 license = "Apache-2.0"
-repository = "https://github.com/structlylabs/ararajuba-sdk"
+repository = "https://github.com/atlantichq/ararajuba-sdk"
 
 [dependencies]
 ararajuba-core = { version = "0.1.0", path = "../../core/ai" }

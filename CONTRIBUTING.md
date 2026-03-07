@@ -100,7 +100,7 @@ docs: update README examples
 
 ## Reporting Issues
 
-- Use [GitHub Issues](https://github.com/structlylabs/ararajuba-sdk/issues) to report bugs
+- Use [GitHub Issues](https://github.com/atlantichq/ararajuba-sdk/issues) to report bugs
 - Include Rust version (`rustc --version`), OS, and a minimal reproduction
 - For security vulnerabilities, see [SECURITY.md](SECURITY.md)
 

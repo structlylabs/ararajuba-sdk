@@ -1,10 +1,10 @@
 [package]
 name = "ararajuba-anthropic"
-version = "0.1.0"
+version = "0.2.1"
 edition = "2024"
 description = "Anthropic provider for Ararajuba AI SDK"
 license = "Apache-2.0"
-repository = "https://github.com/structlylabs/ararajuba-sdk"
+repository = "https://github.com/atlantichq/ararajuba-sdk"
 
 [dependencies]
 ararajuba-provider = { version = "0.2.0", path = "../../core/provider" }
