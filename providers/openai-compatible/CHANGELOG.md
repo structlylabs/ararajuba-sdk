@@ -1,6 +1,11 @@
 # Changelog — ararajuba-openai-compatible
 
-## 0.3.0 — 2026-03-04
+## [0.2.2] — 2026-03-07
+
+### Changed
+- organization name structlylabs -> atlantichq
+
+## 0.2.1 — 2026-03-04
 
 ### Changed
 - **Renamed** from `openai-compatible` to `ararajuba-openai-compatible`

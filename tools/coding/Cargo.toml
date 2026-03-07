@@ -1,13 +1,13 @@
 [package]
 name = "ararajuba-tools-coding"
-version = "0.1.0"
+version = "0.1.2"
 edition = "2024"
 description = "Standard coding-agent tool set (file system, git, shell, analysis)"
 license = "Apache-2.0"
 repository = "https://github.com/atlantichq/ararajuba-sdk"
 
 [dependencies]
-ararajuba-core = { version = "0.1.0", path = "../../core/ai" }
+ararajuba-core = { version = "0.1.2", path = "../../core/ai" }
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 tokio = { version = "1", features = ["full"] }

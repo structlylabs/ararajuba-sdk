@@ -28,7 +28,7 @@ checksum = "7f202df86484c868dbad7eaa557ef785d5c66295e41b460ef922eca0723b842c"
 
 [[package]]
 name = "ararajuba"
-version = "0.1.0"
+version = "0.2.2"
 dependencies = [
  "ararajuba-anthropic",
  "ararajuba-core",
@@ -42,7 +42,7 @@ dependencies = [
 
 [[package]]
 name = "ararajuba-anthropic"
-version = "0.1.0"
+version = "0.2.0"
 dependencies = [
  "ararajuba-provider",
  "ararajuba-provider-utils",
@@ -61,7 +61,7 @@ dependencies = [
 
 [[package]]
 name = "ararajuba-core"
-version = "0.1.0"
+version = "0.1.2"
 dependencies = [
  "ararajuba-provider",
  "ararajuba-provider-utils",
@@ -84,7 +84,7 @@ dependencies = [
 
 [[package]]
 name = "ararajuba-deepseek"
-version = "0.1.0"
+version = "0.1.2"
 dependencies = [
  "ararajuba-openai-compatible",
  "ararajuba-provider",
@@ -98,7 +98,7 @@ dependencies = [
 
 [[package]]
 name = "ararajuba-google"
-version = "0.2.0"
+version = "0.2.2"
 dependencies = [
  "ararajuba-provider",
  "ararajuba-provider-utils",
@@ -117,7 +117,7 @@ dependencies = [
 
 [[package]]
 name = "ararajuba-mcp"
-version = "0.1.0"
+version = "0.1.2"
 dependencies = [
  "ararajuba-provider",
  "ararajuba-provider-utils",
@@ -135,7 +135,7 @@ dependencies = [
 
 [[package]]
 name = "ararajuba-openai"
-version = "0.2.0"
+version = "0.2.2"
 dependencies = [
  "ararajuba-openai-compatible",
  "ararajuba-provider",
@@ -154,7 +154,7 @@ dependencies = [
 
 [[package]]
 name = "ararajuba-openai-compatible"
-version = "0.2.0"
+version = "0.2.2"
 dependencies = [
  "ararajuba-provider",
  "ararajuba-provider-utils",
@@ -176,7 +176,7 @@ dependencies = [
 
 [[package]]
 name = "ararajuba-provider"
-version = "0.2.0"
+version = "0.2.2"
 dependencies = [
  "async-trait",
  "chrono",
@@ -192,7 +192,7 @@ dependencies = [
 
 [[package]]
 name = "ararajuba-provider-utils"
-version = "0.1.0"
+version = "0.1.2"
 dependencies = [
  "ararajuba-provider",
  "async-trait",
@@ -211,7 +211,7 @@ dependencies = [
 
 [[package]]
 name = "ararajuba-tools-coding"
-version = "0.1.0"
+version = "0.1.2"
 dependencies = [
  "ararajuba-core",
  "futures",

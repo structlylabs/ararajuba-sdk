@@ -1,6 +1,6 @@
 [package]
 name = "ararajuba"
-version = "0.1.0"
+version = "0.2.2"
 edition = "2024"
 description = "A unified Rust SDK for working with large language models"
 license = "Apache-2.0"
@@ -17,11 +17,11 @@ coding-tools = ["dep:ararajuba-tools-coding"]
 full = ["openai", "anthropic", "google", "deepseek", "mcp", "coding-tools"]
 
 [dependencies]
-ararajuba-core = { version = "0.1.0", path = "../core/ai" }
-ararajuba-provider = { version = "0.2.0", path = "../core/provider" }
-ararajuba-openai = { version = "0.2.0", path = "../providers/openai", optional = true }
-ararajuba-anthropic = { version = "0.1.0", path = "../providers/anthropic", optional = true }
-ararajuba-google = { version = "0.2.0", path = "../providers/google", optional = true }
-ararajuba-deepseek = { version = "0.1.0", path = "../providers/deepseek", optional = true }
-ararajuba-mcp = { version = "0.1.0", path = "../core/mcp", optional = true }
-ararajuba-tools-coding = { version = "0.1.0", path = "../tools/coding", optional = true }
+ararajuba-core = { version = "0.1.2", path = "../core/ai" }
+ararajuba-provider = { version = "0.2.2", path = "../core/provider" }
+ararajuba-openai = { version = "0.2.2", path = "../providers/openai", optional = true }
+ararajuba-anthropic = { version = "0.2.0", path = "../providers/anthropic", optional = true }
+ararajuba-google = { version = "0.2.2", path = "../providers/google", optional = true }
+ararajuba-deepseek = { version = "0.1.2", path = "../providers/deepseek", optional = true }
+ararajuba-mcp = { version = "0.1.2", path = "../core/mcp", optional = true }
+ararajuba-tools-coding = { version = "0.1.2", path = "../tools/coding", optional = true }

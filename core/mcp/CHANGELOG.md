@@ -1,6 +1,11 @@
 # Changelog – `ararajuba-mcp`
 
-## 0.2.0 (unreleased)
+## 0.1.2 (unreleased)
+
+### Changed
+- organization name structlylabs -> atlantichq
+
+## 0.1.1 (unreleased)
 
 ### Changed
 - **Renamed** from `mcp-client` to `ararajuba-mcp`

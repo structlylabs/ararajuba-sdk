@@ -2,15 +2,20 @@
 
 All notable changes to the Anthropic provider crate (formerly `anthropic`).
 
-## 0.2.1
-- add `cache_control` block in prepare_tools
+## [0.2.0]
 
-## 0.2.0
+### Changed
+- organization name structlylabs -> atlantichq
+
+### Added 
+- create `cache_control` injection in prepare_tools
+
+## [0.1.1]
 
 ### Changed
 - **Renamed** from `anthropic` to `ararajuba-anthropic`
 
-## 0.1.0 – Initial Release
+## [0.1.0] – Initial Release
 
 ### Features
 

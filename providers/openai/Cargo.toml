@@ -1,15 +1,15 @@
 [package]
 name = "ararajuba-openai"
-version = "0.2.0"
+version = "0.2.2"
 edition = "2024"
 description = "OpenAI provider for Ararajuba AI SDK"
 license = "Apache-2.0"
 repository = "https://github.com/atlantichq/ararajuba-sdk"
 
 [dependencies]
-ararajuba-provider = { version = "0.2.0", path = "../../core/provider" }
-ararajuba-provider-utils = { version = "0.1.0", path = "../../core/provider-utils" }
-ararajuba-openai-compatible = { version = "0.2.0", path = "../openai-compatible" }
+ararajuba-provider = { version = "0.2.2", path = "../../core/provider" }
+ararajuba-provider-utils = { version = "0.1.2", path = "../../core/provider-utils" }
+ararajuba-openai-compatible = { version = "0.2.2", path = "../openai-compatible" }
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 tokio = { version = "1", features = ["full"] }

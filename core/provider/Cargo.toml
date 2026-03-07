@@ -1,6 +1,6 @@
 [package]
 name = "ararajuba-provider"
-version = "0.2.0"
+version = "0.2.2"
 edition = "2024"
 description = "Spec/trait layer for AI provider implementations"
 license = "Apache-2.0"
